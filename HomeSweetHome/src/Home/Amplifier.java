@@ -2,6 +2,17 @@ package Home;
 
 public class Amplifier implements Device{
 
+	Tuner tuner;
+	CdPlayer cdPlayer;
+	DvdPlayer dvdPlayer;
+	
+	public Amplifier(Tuner tuner, CdPlayer cdPlayer, DvdPlayer dvdPlayer) {
+		this.tuner = tuner;
+		this.cdPlayer = cdPlayer;
+	
+	}
+	
+	
 	public void setStereoSound(){
 		
 	}
