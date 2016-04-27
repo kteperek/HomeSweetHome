@@ -23,7 +23,7 @@ public class Tuner implements Device{
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Tuner is on!");
 	}
 
 	@Override

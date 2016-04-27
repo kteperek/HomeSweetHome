@@ -5,7 +5,7 @@ public class Projector implements Device {
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Projector is on!");
 	}
 
 	@Override

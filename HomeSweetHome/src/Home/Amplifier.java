@@ -9,6 +9,7 @@ public class Amplifier implements Device{
 	public Amplifier(Tuner tuner, CdPlayer cdPlayer, DvdPlayer dvdPlayer) {
 		this.tuner = tuner;
 		this.cdPlayer = cdPlayer;
+		this.dvdPlayer = dvdPlayer;
 	
 	}
 	
@@ -37,6 +38,10 @@ public class Amplifier implements Device{
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
+		tuner.on();
+		cdPlayer.on();
+		dvdPlayer.on();
+		
 		
 	}
 

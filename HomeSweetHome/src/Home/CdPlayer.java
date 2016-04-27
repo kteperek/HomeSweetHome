@@ -29,7 +29,7 @@ public class CdPlayer implements Device {
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("CD Player is on!");
 	}
 
 	@Override
